@@ -1,0 +1,23 @@
+h2 {
+  font-size: 1.85rem;
+  margin-bottom: 1rem;
+}
+.CaloriesWrapper {
+  margin: 0 2rem;
+}
+.align-left {
+  text-align: left;
+}
+.total-amount {
+  margin-top: 1rem;
+}
+.btn-remove {
+  margin: 0 1em;
+  border: 1px solid lightgray;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+.btn-remove:hover {
+  background-color: red;
+}

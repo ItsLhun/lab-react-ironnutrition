@@ -1,0 +1,11 @@
+.AddFoodForm {
+  display: flex;
+  flex-direction: row;
+  transition: all 23s ease;
+}
+.AddFoodForm > * {
+  margin: 2rem;
+}
+.d-none {
+  display: none;
+}
