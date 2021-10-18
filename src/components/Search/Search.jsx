@@ -16,8 +16,8 @@ class Search extends Component {
     this.setState({
       [name]: value,
     });
-    // this should be the actual searched state, async issue
-    this.props.onChangeHandle(event, value);
+    // this should be the actual searched state ?
+    this.props.onChangeHandle(value);
   };
 
   render() {

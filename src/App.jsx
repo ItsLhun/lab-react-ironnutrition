@@ -18,7 +18,7 @@ class App extends Component {
     };
   }
 
-  foodSearch = (event, input) => {
+  foodSearch = (input) => {
     let finalFoods = [...this.state.allFoods];
     finalFoods = finalFoods.filter((food) => {
       return food.name.toLowerCase().includes(input.toLowerCase());
@@ -27,6 +27,7 @@ class App extends Component {
       return { currentFoods: finalFoods };
     });
   };
+
   handleAddNewFood = (event, compState, callback) => {
     event.preventDefault();
     const { name, calories, img } = compState;
